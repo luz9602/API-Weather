@@ -7,10 +7,15 @@ main.weather-container{
     padding: 32px 16px;
     align-items: center;
     min-height: 450px;
+    background-color: #FBFBFB;
+    border-radius: 8px;
+    margin: auto;
 }
 
 h1{
     margin-bottom: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #412B6B;
 }
 
 .form{
@@ -20,6 +25,8 @@ h1{
     flex-direction: column; 
     gap: 12px;
     width: 90%;
+    color: #2A004E;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .input-group{
@@ -39,28 +46,40 @@ input{
     border-radius: 8px;
     padding-left: 16px;
     border: 1px solid;
-    border-color: rgb(109, 109, 109);
+    border-color: #C4D9FF;
 }
 
 button{
     margin: auto;
     width: 180px;
-    background-color: #001BB7;
-    color: #fff;
+    background-color: #C5BAFF;
+    color: #2A004E;
     padding: 8px;
     border-radius: 8px;
     border: none;
     height: 32px;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
 #weather-result{
-    background-color: #CCC;
+    background-color: #E8F9FF;
     width: 80%;
     padding: 0 16px;
     display: flex;
     justify-items: center;
-    align-items: center;
+    align-items: center; 
     flex-direction: column;
     margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2A004E;
+
+}
+
+body{
+    background-image: url('https://gifdb.com/images/high/pastel-sky-background-3garh8rnc14jym78.gif');
+    background-color: beige;
+    display: flex;
+    height: 100vh;
+
 }

@@ -9,7 +9,7 @@ async function fetchWeatherData( latitude, longitude) {
     console.log(data.elevation);
     console.log(data.current_weather);
     console.log(data.current_weather.temperature);
-    return data.current_weather;
+    return data.current_weather
 }
 // fetchWeatherData( 25.666815, -100.28233);
 async function handleFetchClick(){
